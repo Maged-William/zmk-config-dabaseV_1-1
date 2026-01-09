@@ -3,16 +3,16 @@ manifest:
     # zmk official
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: dabase_v1-1
-      url-base: https://github.com/dabase_v1-1
+    - name: Maged-William
+      url-base: https://github.com/Maged-William
 
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: dabase_v1-1
-      remote: dabase_v1-1
+    - name: dabasev11-zmk-module
+      remote: Maged-William
       revision: main
 
 self:
