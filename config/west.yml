@@ -5,7 +5,10 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: Maged-William
       url-base: https://github.com/Maged-William
-
+    - name: badjeff
+      url-base: https://github.com/badjeff
+    - name: nrfconnect
+      url-base: https://github.com/nrfconnect
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -13,7 +16,18 @@ manifest:
       import: app/west.yml
     - name: dabasev11-zmk-module
       remote: Maged-William
+      revision: badjeff_esb
+    - name: zmk-feature-split-esb
+      remote: badjeff
       revision: main
-
+    - name: sdk-nrf
+      remote: badjeff
+      revision: v3.1-branch+zmk-fixes
+      path: nrf
+    - name: nrfxlib
+      remote: nrfconnect
+      revision: v3.1-branch
+      repo-path: sdk-nrfxlib
+      path: nrfxlib
 self:
   path: config
