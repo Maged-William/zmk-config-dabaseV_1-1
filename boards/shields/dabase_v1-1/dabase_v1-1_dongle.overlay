@@ -1,6 +1,7 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 #include <physical_layouts.dtsi>
 #include <dt-bindings/gpio/gpio.h> // Required for GPIO_ACTIVE_HIGH
+#include "dabase_v1-1_esb_addr.dtsi"
 
 / {
     chosen {
