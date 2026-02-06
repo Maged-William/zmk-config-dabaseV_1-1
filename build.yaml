@@ -30,11 +30,6 @@ include:
     cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
     artifact-name: dabase_v1-1_left_peripheral
 
-  - board: nice_nano@2.0.0
-    shield: dabase_v1-1_left
-    snippet: studio-rpc-usb-uart
-    cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=y
-    artifact-name: dabase_v1-1_left_central
 
   - board: nice_nano@2.0.0
     shield: dabase_v1-1_right
