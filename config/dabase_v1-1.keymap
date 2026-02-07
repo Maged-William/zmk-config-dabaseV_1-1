@@ -58,8 +58,13 @@
         };
 
         resetBT {
-            bindings = <&bt BT_CLR_ALL>;
+            bindings = <&sys_reset>;
             key-positions = <1 5>;
+        };
+
+        resetLBT {
+            bindings = <&kp X>;
+            key-positions = <7 11>;
         };
 
         esc {
