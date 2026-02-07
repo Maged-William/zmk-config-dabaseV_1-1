@@ -64,7 +64,7 @@
 
         resetLBT {
             bindings = <&kp X>;
-            key-positions = <7 11>;
+            key-positions = <6 10>;
         };
 
         esc {
