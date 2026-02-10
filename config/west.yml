@@ -11,12 +11,14 @@ manifest:
       url-base: https://github.com/kmobs
     - name: janpfischer
       url-base: https://github.com/janpfischer
-    - name: cormoran
-      url-base: https://github.com/cormoran
     - name: Maged-William
       url-base: https://github.com/Maged-William
 
   projects:
+    - name: zmk
+      remote: zmkfirmware
+      revision: main
+      import: app/west.yml
     - name: zmk-feature-split-esb
       remote: badjeff
       revision: main
@@ -32,14 +34,6 @@ manifest:
     - name: zmk-prospector # <--- and these
       remote: kmobs # <---
       revision: newstatus
-    - name: zmk-module-battery-history
-      remote: cormoran
-      revision: main
-    - name: zmk
-      remote: cormoran
-      revision: v0.3+custom-studio-protocol
-      import:
-        file: app/west.yml
     - name: dabasev11-zmk-module
       remote: Maged-William
       revision: main
