@@ -35,7 +35,7 @@
 };
 
 
-&pro_micro_i2c {
+&i2c0 {
     status = "okay";
 
     tps43: iqs5xx@74 {
@@ -57,7 +57,7 @@
 
         switch-xy;
 
-        reset-gpios = <&pro_micro 8 GPIO_ACTIVE_LOW>; /* P1.04 */
-        rdy-gpios = <&pro_micro 9 GPIO_ACTIVE_HIGH>; /* P1.06 */
+        reset-gpios = <&gpio1 4 GPIO_ACTIVE_LOW>; /* D8 / P1.04 */
+        rdy-gpios = <&gpio1 6 GPIO_ACTIVE_HIGH>; /* D9 / P1.06 */
     };
 };
