@@ -11,6 +11,8 @@ manifest:
       url-base: https://github.com/kmobs
     - name: janpfischer
       url-base: https://github.com/janpfischer
+    - name: aym1607
+      url-base: https://github.com/AYM1607
     - name: Maged-William
       url-base: https://github.com/Maged-William
 
@@ -34,6 +36,9 @@ manifest:
     - name: zmk-prospector # <--- and these
       remote: kmobs # <---
       revision: newstatus
+    - name: zmk-driver-azoteq-iqs5xx
+      remote: aym1607
+      revision: main
     - name: dabasev11-zmk-module
       remote: Maged-William
       revision: main

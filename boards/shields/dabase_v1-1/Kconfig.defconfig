@@ -16,7 +16,14 @@ if SHIELD_DABASE_V11_LEFT || SHIELD_DABASE_V11_RIGHT || SHIELD_DABASE_V11_DONGLE
 config ZMK_SPLIT
     default y
 
+config I2C
+	default y
+      
+config ZMK_POINTING
+	default y
+    
 config ZMK_BLE
     default y
+    
 
 endif
