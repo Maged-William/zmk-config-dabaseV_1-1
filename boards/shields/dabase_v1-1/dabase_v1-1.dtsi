@@ -1,19 +1,21 @@
+/*
+ * Copyright (c) 2022 Duccio Breschi
+ *
+ * SPDX-License-Identifier: MIT
+ */
+
 #include <dt-bindings/zmk/matrix_transform.h>
-#include <dt-bindings/gpio/gpio.h> // Required for GPIO_ACTIVE_HIGH
-#include "dabase_v1-1_esb_addr.dtsi"
+
 #include "dabase_v1-1-layouts.dtsi"
+
+&default_layout {
+    transform = <&default_transform>;
+};
 
 / {
     chosen {
-        zmk,kscan = &mock_kscan;
+        zmk,kscan = &kscan0;
         zmk,physical-layout = &default_layout;
-    };
-
-    mock_kscan: mock_kscan_0 {
-        compatible = "zmk,kscan-mock";
-        columns = <0>;
-        rows = <0>;
-        events = <0>;
     };
 
     default_transform: keymap_transform_0 {
@@ -33,8 +35,9 @@
         >;
     };
 
-    &default_layout {
-        transform = <&default_transform>;
+    kscan0: kscan {
+        compatible = "zmk,kscan-gpio-matrix";
+        wakeup-source;
     };
 
     left_encoder: encoder_left {
@@ -42,7 +45,7 @@
         a-gpios = <&gpio0 8 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
         b-gpios = <&gpio0 6 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
         label = "LEFT_ENCODER";
-        resolution = <4>;
+		resolution = <4>;
         status = "disabled";
     };
 
