@@ -14,7 +14,7 @@
             tap-ms = <1>;
         };
 
-        // Ctrl + [ → (
+        //  Ctrl + [ → (
 
         mm_BP: mod_morph_ctrl_brack_to_paren {
             compatible = "zmk,behavior-mod-morph";
