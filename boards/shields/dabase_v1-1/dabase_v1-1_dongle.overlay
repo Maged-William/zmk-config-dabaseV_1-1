@@ -1,6 +1,5 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 #include <dt-bindings/gpio/gpio.h> // Required for GPIO_ACTIVE_HIGH
-#include "dabase_v1-1_esb_addr.dtsi"
 #include "dabase_v1-1-layouts.dtsi"
 
 / {
@@ -33,10 +32,6 @@
         >;
     };
 
-    &default_layout {
-        transform = <&default_transform>;
-    };
-
     left_encoder: encoder_left {
         compatible = "alps,ec11";
         a-gpios = <&gpio0 8 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
@@ -51,4 +46,8 @@
         sensors = <&left_encoder>;
         triggers-per-rotation = <20>;
     };
+};
+
+&default_layout {
+    transform = <&default_transform>;
 };
