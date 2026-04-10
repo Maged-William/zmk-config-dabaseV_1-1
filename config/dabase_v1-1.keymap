@@ -134,7 +134,7 @@
         ARROWS {
             bindings = <
 &trans &kp LC(X)    &kp LC(C)    &kp LC(V)      &kp LG(V)      &kp LG(LS(T))                    &trans      &kp PG_UP   &kp UP      &kp PG_DN   &kp ESC &trans
-&trans &kp LEFT_GUI &kp LEFT_ALT &kp LCTRL      &kp LEFT_SHIFT &kp Y                           &kp HOME    &kp LEFT    &kp DOWN    &kp RIGHT   &kp END &trans
+&trans &kp LEFT_GUI &kp LEFT_ALT &kp LCTRL      &kp LEFT_SHIFT &kp Y                            &kp HOME    &kp LEFT    &kp DOWN    &kp RIGHT   &kp END &trans
 &trans &kp F6       &kp F7       &kp F8         &kp F9         &kp F10                          &kp F12     &kp F11     &trans      &trans      &trans  &trans
 &trans &trans       &trans       &studio_unlock &trans         &trans                           &kp BSPC    &kp DELETE  &trans      &trans      &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                                                  &kp LEFT  &kp UP  &kp RIGHT  &kp DOWN  &trans  &trans
@@ -148,7 +148,7 @@
             bindings = <
 &trans  &kp LC(X)      &kp LC(C)      &kp LC(V)       &kp LG(V)       &kp LG(LS(T))          &trans          &msc SCRL_UP    &mmv MOVE_UP    &msc SCRL_DOWN  &kp ESCAPE      &trans
 &trans  &kp LEFT_GUI   &kp LEFT_ALT   &kp LCTRL       &kp LEFT_SHIFT  &trans                 &msc SCRL_LEFT  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT &msc SCRL_RIGHT &trans
-&trans  &kp F1         &kp F2         &kp F3          &kp F4          &kp F5                 &trans          &mkp MB2        &mkp MB1        &mkp MB3        &trans          &trans
+&trans  &kp F1         &kp F2         &kp F3          &kp F4          &kp F5                 &mkp MB1        &mkp MB2        &mkp MB3        &trans          &trans          &trans
 &trans  &trans         &trans         &trans          &trans          &lemmein               &mkp MB3        &mkp MB2        &mkp MB1        &trans          &trans          &trans
 &trans  &trans         &trans         &trans          &trans          &trans                 &trans          &trans          &trans          &trans          &trans          &trans
 &trans  &trans         &trans         &trans          &trans          &trans                 &trans          &trans          &trans          &trans          &trans          &trans
