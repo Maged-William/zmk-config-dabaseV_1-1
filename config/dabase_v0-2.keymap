@@ -109,7 +109,6 @@
 &trans  &trans  &trans  &trans  &trans  &trans                             &mmv MOVE_LEFT  &mmv MOVE_UP    &mmv MOVE_RIGHT &mmv MOVE_DOWN  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                             &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                             &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                             &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
             sensor-bindings =
@@ -127,7 +126,6 @@
 &trans  &trans  &trans  &trans  &trans  &trans                             &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                             &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                             &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                             &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
@@ -138,7 +136,6 @@
 &trans &kp F6       &kp F7       &kp F8         &kp F9         &kp F10                          &kp F12     &kp F11     &trans      &trans      &trans  &trans
 &trans &trans       &trans       &studio_unlock &trans         &trans                           &kp BSPC    &kp DELETE  &trans      &trans      &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                                                  &kp LEFT  &kp UP  &kp RIGHT  &kp DOWN  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans
             >;
@@ -153,7 +150,6 @@
 &trans  &trans         &trans         &trans          &trans          &trans                 &trans          &trans          &trans          &trans          &trans          &trans
 &trans  &trans         &trans         &trans          &trans          &trans                 &trans          &trans          &trans          &trans          &trans          &trans
 &trans  &trans         &trans         &trans          &trans          &trans                 &trans          &trans          &trans          &trans          &trans          &trans
-&trans  &trans         &trans         &trans          &trans          &trans                 &trans          &trans          &trans          &trans          &trans          &trans
             >;
         };
 
@@ -163,7 +159,6 @@
 &trans  &kp CAPS       &kp A   &kp S        &kp D     &kp F           &mt H G  &kp LEFT      &kp DOWN  &kp RIGHT &mt J K  &trans
 &trans  &kp LEFT_SHIFT &kp Z   &kp X        &kp C     &mt B V         &mt B N  &kp N1        &kp N2    &kp N3    &kp N4   &trans
 &trans  &trans         &trans  &kp LEFT_ALT &kp LCTRL &kp SPACE       &kp DEL  &kp BACKSPACE &kp ENTER &trans    &trans   &trans
-&trans  &trans  &trans  &trans  &trans  &trans                        &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                        &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                        &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                        &trans  &trans  &trans  &trans  &trans  &trans
