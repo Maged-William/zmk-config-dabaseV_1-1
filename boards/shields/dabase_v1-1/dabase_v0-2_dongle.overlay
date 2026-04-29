@@ -1,6 +1,6 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 #include <dt-bindings/gpio/gpio.h> // Required for GPIO_ACTIVE_HIGH
-#include "dabase_v1-1-layouts.dtsi"
+#include "dabase_v0-2-layouts.dtsi"
 
 / {
     chosen {

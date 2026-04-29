@@ -13,7 +13,7 @@ manifest:
       import: app/west.yml
     - name: dabasev11-zmk-module
       remote: Maged-William
-      revision: main
+      revision: dabaseV0.2
 
 self:
   path: config

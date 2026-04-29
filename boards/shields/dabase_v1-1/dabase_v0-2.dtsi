@@ -6,7 +6,7 @@
 
 #include <dt-bindings/zmk/matrix_transform.h>
 
-#include "dabase_v1-1-layouts.dtsi"
+#include "dabase_v0-2-layouts.dtsi"
 
 &default_layout {
     transform = <&default_transform>;
