@@ -11,9 +11,9 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: dabasev11-zmk-module
+    - name: dabasev02-zmk-module
       remote: Maged-William
-      revision: dabaseV0.2
+      revision: main
 
 self:
   path: config
